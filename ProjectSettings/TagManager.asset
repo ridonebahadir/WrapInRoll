@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Rope
+  - Star
+  - Scissors
+  - Jump
+  - RopePiece
+  - ChangeMaterial
+  - IncreaseRope
+  - DecreaseRope
+  - Star1
+  - Star2
+  - Bomb
+  - Fruit
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Human
+  - Water
+  - UI
+  - Capsule
+  - Item
+  - Tutunma
+  - Rope
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

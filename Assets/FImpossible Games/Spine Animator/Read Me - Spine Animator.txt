@@ -1,0 +1,64 @@
+﻿__________________________________________________________________________________________
+
+Package "Spine Animator"
+Version 1.0.2
+
+Made by FImpossible Games - Filip Moeglich
+https://www.FilipMoeglich.pl
+FImpossibleGames@Gmail.com or Filip.Moeglich@Gmail.com
+
+__________________________________________________________________________________________
+
+Unity Connect: https://connect.unity.com/u/5b2e9407880c6425c117fab1
+Youtube: https://www.youtube.com/channel/UCDvDWSr6MAu1Qy9vX4w8jkw
+Facebook: https://www.facebook.com/FImpossibleGames
+Twitter (@FimpossibleG): https://twitter.com/FImpossibleG
+Google+: https://plus.google.com/u/3/115325467674876785237
+
+__________________________________________________________________________________________
+Description:
+
+Spine animator is component which animates your skeleton's spine bones accordingly to movement.
+It's simulating real animal-like spine movement without any need of additional animating or coding.
+This component will make your animations look much more real without wasting a lot of time
+for making decent animations of walking / running to sides by your creatures and without
+spending a lot of money for animator to create this animations.
+Another benefit from this procedural animating is that all movement of bones is continious, 
+so it feels more real if your creature is rotating, stopping it etc.
+
+Main features:
+- Includes interactive demo scenes
+- Includes full source code
+- Easy setup and incredible effect
+- Fully cooperating with keyframed animations
+- Not needed any coding
+- Visual friendly inspector window with helpful features
+- Highly customizable
+- Very high performance
+- Blending with original animation
+
+
+Known issues:
+- When your model is very long it can disappear sometimes, that's caused by skinned mesh render which's bounding box is going out of sight
+in next versions there will be added option to adjust bounds dynamically by component.
+- Using limiting angle with straightening can sometimes cause rapid rotations, it's thing to polish in next versions
+- Depends on your skeleton, when you jump or so, skeleton segments can rotate in opposite direction, you can toggle 'Inversed Vertical Rotation'
+as solution for now, but in next version all will be adjusted automatically without need for this toggle
+- Connecting tail using spine animator in the same time using spine animator on spine bones can be sometimes problematic, depends on your skeleton
+it can be too hard, then I recommend using my other package "Tail Animator" which gives good result without any additional tweaks
+
+
+__________________________________________________________________________________________
+Changelog:
+
+V1.0.2
+- Added support for physical clock, if you need to have enabled "Animate Physics" in animator, "Physical Clock" variable will make Spine Animator work right with it
+- Added variable "Distances Multiplier" and few others in "Advanced" tab, they can be used to get different results, for example for humanoid spines
+- Added humanoid demo scenes and "Fockatrice" demo scene (monster reminding Cockatrice)
+- Variables which does nothing in playmode will be visible only in editor mode
+- Added variable "CustomAnchorRotationOffset" for correcting in case of custom anchor works wrong
+
+V1.0.1
+- Changed "Pivot Offset" variable name to "Segments Pivot Offset"
+- Added variable "BasePivotOffset" to adjust rotation placement
+- Added text file with manual in text version so anyone who couldn't use it with translator now can
