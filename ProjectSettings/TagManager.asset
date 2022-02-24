@@ -3,30 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Rope
-  - Star
-  - Scissors
-  - Jump
-  - RopePiece
-  - ChangeMaterial
-  - IncreaseRope
-  - DecreaseRope
-  - Star1
-  - Star2
-  - Bomb
-  - Fruit
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Human
+  - 
   - Water
   - UI
-  - Capsule
-  - Item
-  - Tutunma
-  - Rope
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
